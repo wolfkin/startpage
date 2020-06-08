@@ -6,6 +6,9 @@ https://www.reddit.com/r/startpages/comments/g2om9e/my_first_html_project/
 
 https://www.reddit.com/r/startpages/comments/g2mt4g/my_first_startpage_with_html_and_css/
 	https://github.com/Hamburgerboi/startPage
-	
+
 https://www.reddit.com/r/startpages/comments/g2d529/not_too_fancy_but_i_have_some_shortcut_things/
 	https://github.com/xinoip/startx
+
+https://www.reddit.com/r/startpages/comments/gs2w39/the_glorious_startpage/
+	https://github.com/manilarome/the-glorious-startpage/
