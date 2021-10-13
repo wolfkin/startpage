@@ -1,3 +1,26 @@
 .clear {
     clear: both;
 }
+.center{
+	text-align: center;
+}
+.section{
+	float: left;
+	border: 2px dotted green;
+	margin: 0 10px;
+}
+h4{
+	text-align: center;
+}
+footer ol li{
+	display: inline;
+}
+.section li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: green;
+}
+#redditlist{
+	padding-left: 0;
+}
