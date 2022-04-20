@@ -50,20 +50,3 @@ footer ol li{
 	display: flex;
 	justify-content: center;
 }
-
-
-/******************************************
-Going with Dracula theme and below is where
-I'll put my color information
-******************************************/
-a:link{color:#ff79c6;}
-a:visited{color:#6272a4;}
-a:hover{color:#ff5555;}
-a:active{color:#f1fa8c;}
-
-body{
-	background-color: #282a36;
-	color: #44475a;
-}
-
-div.section:hover{color:#ff5555;}

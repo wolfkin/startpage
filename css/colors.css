@@ -1,0 +1,15 @@
+/************************************************
+Going with Dracula theme for now and below is
+where I'll put my color information
+************************************************/
+a:link{color:#ff79c6;}             /* Pink     */
+a:visited{color:#6272a4;}          /* Comment  */
+a:hover{color:#ff5555;}            /* Red      */
+a:active{color:#f1fa8c;}           /* Yellow   */
+
+body{
+	background-color: #282a36;     /* Backgrnd */
+	color: #44475a;                /* Cur Line */
+}
+
+div.section:hover{color:#ff5555;}  /* Red      */
