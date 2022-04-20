@@ -1,8 +1,16 @@
 /************************************************
 Going with Dracula theme for now and below is
 where I'll put my color information
+
+Background	#282A36		Yellow		#F1FA8C
+Foreground	#F8F8F2		Green 		#50FA7B
+Selection	#44475A		Purple 		#BD93F9
+Comment		#6272A4		Cyan 		#8BE9FD
+Red			#FF5555		Pink		#FF79C6
+Orange		#FFB86C
+
 ************************************************/
-a:link{color:#ff79c6;}             /* Pink     */
+a:link{color:#6272a4;}             /* Pink     */
 a:visited{color:#6272a4;}          /* Comment  */
 a:hover{color:#ff5555;}            /* Red      */
 a:active{color:#f1fa8c;}           /* Yellow   */
@@ -12,4 +20,14 @@ body{
 	color: #44475a;                /* Cur Line */
 }
 
-div.section:hover{color:#ff5555;}  /* Red      */
+.section li{
+	background-color: #44475a;  /*    */
+	/*
+	background-image: url("../img/button_gradient.png");
+	background-repeat: repeat-y;
+	*/
+	/* background: linear-gradient(to bottom right, #282a40 0%, #414177 47%, #75778c 100%); */
+}
+.section li:hover{
+	background-color: #ffb86c;  /* Orange   */
+}

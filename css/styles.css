@@ -11,39 +11,48 @@
 This is where I'll put my resets
 
 ******************************************/
+body{
+	font-size: 1em;
+}
 ol, ul{
 	padding-left: 0
 }
-.clear {
-    clear: both;
+h1,h2,h3,h4{
+	text-align: center;
 }
+h1{font-size: 1.8em;}
+h2{font-size: 1.6em;}
+h3{font-size: 1.4em;}
+h4{font-size: 1.2em;}
+h5{font-size: 1.2em;}
+h6{font-size: 1.1em;font-style: italic;}
+li{list-style-type: none;}
+a:link{
+	text-decoration-line: none;}
+.center{text-align: center;}
+.clear {clear: both;}
 
 /******************************************
 This is where I'll put my main code
 
 ******************************************/
-.center{
-	text-align: center;
+
+footer ol li{
+	display: inline;
 }
+
 .section{
 	float: left;
-	border-color: #eee;
-	border-width: 2px:
 	margin: 5px 10px;
 	padding: 20px;
 }
 .section li{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
 	font-weight: bold;
+	margin: 5px;
+	padding: 10px 20px;
 }
-
-h4{
-	text-align: center;
-}
-footer ol li{
-	display: inline;
+div.section:hover h4{
+	text-decoration: underline;
 }
 
 #main{

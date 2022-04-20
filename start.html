@@ -15,7 +15,7 @@
 <body>
 	<script src="js/scripts.js"></script>
 
-	<h2 class="time center">20:15:16</h2>
+	<h2 class="time center"><span id="clock">00:00 XX</span></h2>
 	<h2 class="date center"><script> document.write(new Date().toLocaleDateString()); </script></h2>
 
 	<div class="search center">
@@ -43,9 +43,9 @@
 		<li><a href="https://www.youtube.com/feed/subscriptions">YouTube</a></li>
 		<li><a href="https://trakt.tv/dashboard">Trakt</a></li>
 		<li><a href="https://publish.buffer.com/">Buffer</a></li>
-		<li><a href="https://www.reddit.com/"></a>Reddit</li>
-		<li id="redditlist">
-			<ul>
+		<li><a href="https://www.reddit.com/">Reddit</a></li>
+		<li>
+			<ul id="redditlist">
 				<li class="reddit"><a href="https://www.reddit.com/r/Blackfellas/new/">Blackfellas</a></li>
 				<li class="reddit"><a href="https://www.reddit.com/r/boardgames/new/">Boardgames</a></li>
 				<li class="reddit"><a href="https://www.reddit.com/r/blackladies/new/">Blackladies</a></li>
@@ -76,11 +76,9 @@
 		<li><a href="https://www.globaltv.com/">GlobalTV</a></li>
 		<li><a href="https://www.cp24.com/video?clipId=68595">CP24</a></li>
 		<li><a href="https://soap2day.ac/">Soap2Day</a></li>
-		<li><a href="https://www.fxnowcanada.ca/"></a></li>
+		<li><a href="https://www.fxnowcanada.ca/">FX Now</a></li>
 		<li><a href="https://gem.cbc.ca/">CBC Gem</a></li>
 		<li><a href="https://www.citytv.com/">City TV</a></li>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
 	</ol>
 	</div>
 </div>
@@ -94,7 +92,13 @@
 <footer class="clear">
 
 	<ol>
-		<li></li>
+		<li>
+			<p><a href="http://jigsaw.w3.org/css-validator/check/referer">
+			    <img style="border:0;width:88px;height:31px"
+			        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+			        alt="Valid CSS!" />
+			</a></p>
+        </li>
 		<li></li>
 		<li></li>
 		<li></li>
