@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+	<script src="js/scripts.js"></script>
 
 	<h2 class="time center">20:15:16</h2>
 	<h2 class="date center"><script> document.write(new Date().toLocaleDateString()); </script></h2>
@@ -22,31 +22,33 @@
 		<input type="text" name="q" size="31" value="">
 		</form>
 	</div>
+	<div class="" id="main">
 	<div class="section">
-	<h4>Local Services</h4>
-	<ol id="local" class="listical">
-		<li><a href="http://192.168.1.10:8081/#library_id=Intake&panel=book_list">Calibre</a></li>
-		<li><a href="http://192.168.1.10:8989/">Sonarr</a></li>
-		<li><a href="http://192.168.1.10:7878/">Radarr</a></li>
-		<li><a href="http://192.168.1.10:9117/">Jackett</a></li>
-		<li><a href="http://192.168.1.10:8384/">Syncthing [Gungrave]</a></li>
-		<li><a href="http://192.168.1.54:8384/">Syncthing [Laptop]</a></li>
-		<li><a href="http://192.168.1.10:7070/">uTorrent</a></li>
-	</ol>
+		<h4>Local Services</h4>
+		<ol id="local" class="listical">
+			<li><a href="http://192.168.1.10:8081/#library_id=Intake&panel=book_list">Calibre</a></li>
+			<li><a href="http://192.168.1.10:8989/">Sonarr</a></li>
+			<li><a href="http://192.168.1.10:7878/">Radarr</a></li>
+			<li><a href="http://192.168.1.10:9117/">Jackett</a></li>
+			<li><a href="http://192.168.1.10:8384/">Syncthing [Gungrave]</a></li>
+			<li><a href="http://192.168.1.54:8384/">Syncthing [Laptop]</a></li>
+			<li><a href="http://192.168.1.10:7070/">uTorrent</a></li>
+		</ol>
 	</div>
 
 	<div class="section">
 	<h4>Commons</h4>
 	<ol id="common" class="listical">
+		<li><a href="https://www.youtube.com/feed/subscriptions">YouTube</a></li>
+		<li><a href="https://trakt.tv/dashboard">Trakt</a></li>
+		<li><a href="https://publish.buffer.com/">Buffer</a></li>
 		<li><a href="https://www.reddit.com/"></a>Reddit</li>
-		<li><ul id="redditlist">
-			<li class="reddit"><a href="https://www.reddit.com/r/Blackfellas/new/">BF</a></li>
-			<li class="reddit"><a href="https://www.reddit.com/r/boardgames/new/">BG</a></li>
-			<li class="reddit"><a href="https://www.reddit.com/r/blackladies/new/">BL</a></li>
-			<li class="reddit"><a href="https://www.youtube.com/feed/subscriptions">YT</a></li>
-			<li class="reddit"><a href="https://trakt.tv/dashboard">Tr</a></li>
-			<li><a href="https://publish.buffer.com/">Buffer</a></li>
-		</ul>
+		<li id="redditlist">
+			<ul>
+				<li class="reddit"><a href="https://www.reddit.com/r/Blackfellas/new/">Blackfellas</a></li>
+				<li class="reddit"><a href="https://www.reddit.com/r/boardgames/new/">Boardgames</a></li>
+				<li class="reddit"><a href="https://www.reddit.com/r/blackladies/new/">Blackladies</a></li>
+			</ul>
 		</li>
 	</ol>
 	</div>
@@ -69,9 +71,18 @@
 		<li><a href="https://www.disneyplus.com/home">Disney+</a></li>
 		<li><a href="https://www.netflix.com/browse">NetFlix</a></li>
 		<li><a href="https://play.google.com/movies">Google Play Movies</a></li>
+		<li><a href="https://www.ctv.ca/">CTV</a></li>
+		<li><a href="https://www.globaltv.com/">GlobalTV</a></li>
+		<li><a href="https://www.cp24.com/video?clipId=68595">CP24</a></li>
+		<li><a href="https://soap2day.ac/">Soap2Day</a></li>
+		<li><a href="https://www.fxnowcanada.ca/"></a></li>
+		<li><a href="https://gem.cbc.ca/">CBC Gem</a></li>
+		<li><a href="https://www.citytv.com/">City TV</a></li>
+		<li><a href=""></a></li>
 		<li><a href=""></a></li>
 	</ol>
 	</div>
+</div>
 
 <!-- Copy Paste Stuff
 
@@ -80,6 +91,7 @@
 -->
 
 <footer class="clear">
+
 	<ol>
 		<li></li>
 		<li></li>
