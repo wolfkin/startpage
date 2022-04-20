@@ -7,9 +7,21 @@
 /*    Lasted Updated: 2022-04-20        */
 /****************************************/
 
+/******************************************
+This is where I'll put my resets
+
+******************************************/
+ol, ul{
+	padding-left: 0
+}
 .clear {
     clear: both;
 }
+
+/******************************************
+This is where I'll put my main code
+
+******************************************/
 .center{
 	text-align: center;
 }
@@ -24,14 +36,7 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	color: green;
-}
-
-
-
-#main{
-	display: flex;
-	justify-content: center;
+	font-weight: bold;
 }
 
 h4{
@@ -40,15 +45,16 @@ h4{
 footer ol li{
 	display: inline;
 }
-ol, ul{
-	padding-left: 0
+
+#main{
+	display: flex;
+	justify-content: center;
 }
+
 
 /******************************************
 Going with Dracula theme and below is where
 I'll put my color information
-
-
 ******************************************/
 a:link{color:#ff79c6;}
 a:visited{color:#6272a4;}
